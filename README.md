@@ -1,6 +1,6 @@
-# Alfian Luthfi Personal Portofolio
+# Panji Revolusione .S Personal Portofolio
 
-Experienced Software Engineer with over 3 years of hands-on expertise in crafting innovative and high-performing web applications and products. Proficient in both front-end and back-end development, adept at leveraging these technologies to deliver efficient, scalable, and user-centric solutions.
+Panji Revolusioner S adalah Mahasiswa Informatika yang tertarik pada bidang website developer. Saya memiliki pengalaman dalam bahasa pemrograman seperti HTML,CSS dan JavaScrip, serta memiliki pengalaman dalam framework seperti ReactJs dan Codeigniter. Saya juga sangat tertarik dengan pengembangan website menggunakan framework frontend seperti Bootstrap dan telwin untuk membuat website responsif dan mudah diakses. Saya selalu mengikuti perkembangan terkini dalam dunia web programming dan terus memperdalam ilmu dan keterampilan saya.
 
 ## Build
 
