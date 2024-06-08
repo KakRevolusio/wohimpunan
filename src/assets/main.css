@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "roboto";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-primary-to-secondary {
+    background: #1e30f3;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+}
+
+.feature {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+}
+
+[data-bs-theme="light"] {
+    --bs-secondary: #e21e80;
+    --bs-secondary-rgb: 226, 30, 128;
+}
+
+[data-bs-theme="dark"] {
+    /*Background*/
+    --bs-body-bg: #000 !important;
+    --bs-secondary: #f273b2 !important;
+    --bs-secondary-rgb: 242, 115, 178 !important;
+
+    .text-gradient {
+        background: -webkit-linear-gradient(315deg, #5078ff 0%, #f273b2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .bg-gradient-primary-to-secondary {
+        background: #5078ff;
+        background: linear-gradient(135deg, #5078ff 0%, #f273b2 100%);
+    }
+
+    .text-primary {
+        color: #6ea8fe !important;
+    }
+
+    .btn-primary {
+        background-color: #6ea8fe !important;
+        color: #000 !important;
+    }
+
+    .btn-outline-dark {
+        color: #fff;
+        border-color: #fff !important;
+    }
+}
